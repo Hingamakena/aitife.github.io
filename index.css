@@ -1,11 +1,42 @@
-#sell {
-	background-color: yellow;
-}
-#buy {
-	background-color: blue;
-}
-#house_options {
-	background-color: black;
-	text-align: center;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
+header {
+	display: flex;
+	background-color: #8B27F5;
+	width: 100%;
+	align-items: center;
+	font-size: 34px;
+	flex-direction: column;
+	padding: 20px;
+}
+
+#search {
+	width: 50%;
+	height: 32px;	
+}
+
+#main_part {
+	background-color: white;
+	padding: 60px;
+	flex: 1;
+	border: 2px solid green;
+	width: 90%;
+}
+
+html, body {
+	height: 100%;
+	background-color: black;
+}
+body {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	flex-direction: column;
+}
+footer {
+	color: white;
+}
